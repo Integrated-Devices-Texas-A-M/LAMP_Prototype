@@ -1,6 +1,6 @@
 ---
 
-# *An Open-Source All-in-One Colorimetric Point-of-Care Device for Real-Time and Automated Monitoring of Loop-Mediated Isothermal Amplification*
+# *An Open-Source All-in-One Point-of-Care Device for Real-Time and Automated Monitoring of Colorimetric Loop-Mediated Isothermal Amplification*
 
 An open-source, 3D-printed, all-in-one platform for real-time monitoring of colorimetric loop-mediated isothermal amplification (LAMP) reactions. The device integrates controlled heating, uniform white back-illumination, automated image acquisition, and on-device image analysis through a Raspberry Pi touchscreen graphical user interface (GUI).
 
