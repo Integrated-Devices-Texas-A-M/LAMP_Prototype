@@ -1,6 +1,6 @@
 ---
 
-# *An Open-Source All-in-One Point-of-Care Device for Real-Time and Automated Monitoring of Colorimetric Loop-Mediated Isothermal Amplification*
+# *An Open-Source All-in-One Colorimetric Point-of-Care Device for Real-Time and Automated Monitoring of Loop-Mediated Isothermal Amplification*
 
 An open-source, 3D-printed, all-in-one platform for real-time monitoring of colorimetric loop-mediated isothermal amplification (LAMP) reactions. The device integrates controlled heating, uniform white back-illumination, automated image acquisition, and on-device image analysis through a Raspberry Pi touchscreen graphical user interface (GUI).
 
@@ -255,9 +255,9 @@ Select **Analysis** to process all `.jpg` images already stored in the experimen
 
 The software:
 
-1. Reads the JPEG images in natural numerical order.
-2. Detects five tube regions.
-3. Calculates the median yellowing index for every tube and frame.
+1. Reads all JPEG images in natural numerical order and processes them.
+2. Detects the five tube regions.
+3. Calculates the raw median yellowing index for every tube.
 4. Generates summary plots and CSV.
 
 ### 8. Real-Time Monitoring + Analysis
@@ -311,7 +311,10 @@ The right panel displays the **raw median yellowing index from the latest frame*
     ├── 1.jpg
     ├── 2.jpg
     ├── 3.jpg
-    └── ...
+    ├── ...
+    ├── Analysis_Yellowing_Index.csv
+    ├── Analysis_Median_Yellowing_Index.png
+    └── Analysis_Yellowing_Index.xlsx
 
 ```
 
@@ -326,7 +329,7 @@ The right panel displays the **raw median yellowing index from the latest frame*
     ├── 3.jpg
     ├── ...
     ├── RealTime_Yellowing_Index_Running.csv
-    ├── RealTime_Current_Step9_Median_Yellowing_Index.png
+    ├── RealTime_Median_Yellowing_Index.png
     ├── RealTime_Yellowing_Index_Final.xlsx
     └── RealTime_Mask_Overlays/
 ```
