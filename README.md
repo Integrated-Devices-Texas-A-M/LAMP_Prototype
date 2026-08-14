@@ -338,5 +338,5 @@ The right panel displays the **raw median yellowing index from the latest frame*
 
 Citation information will be updated after publication.
 
-Althumayri MO, Xu W, Zhao J, Scaccia N, Inan YS, Song J, Figueiredo Costa S, Sabino E, Ceylan Koydemir H. *An Open-Source All-in-One Colorimetric Point-of-Care Device for Real-Time and Automated Monitoring of Loop-Mediated Isothermal Amplification.* Manuscript in preparation.
+Althumayri MO, Xu W, Zhao J, Scaccia N, Inan YS, Song J, Figueiredo Costa S, Sabino E, Ceylan Koydemir H. *An Open-Source All-in-One Colorimetric Point-of-Care Device for Real-Time and Automated Monitoring of Loop-Mediated Isothermal Amplification.* Manuscript submitted.
 
